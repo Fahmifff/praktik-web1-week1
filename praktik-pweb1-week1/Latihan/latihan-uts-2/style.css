@@ -1,0 +1,17 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table {
+    width: 200px;
+}
+td {
+    text-align: center;
+}
+.x{
+    font-size: 30px;
+    font-weight: bold;
+}
+button:hover{
+    color:blue;
+}

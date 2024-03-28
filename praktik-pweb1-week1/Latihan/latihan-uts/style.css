@@ -1,0 +1,17 @@
+*{
+    background-color: yellowgreen;
+}
+ th, td {
+    border: 1px solid black;
+}
+.table1 {
+    border: 3px solid black;
+}
+
+.table2 {
+    border: 3px solid red;
+}
+
+.table2 th{
+    background-color: yellow;
+}

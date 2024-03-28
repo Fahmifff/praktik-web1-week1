@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Halaman Home</title>
+<!--Logo di title web-->
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<style>
+    a:link {
+      color: green;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:visited {
+      color: pink;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    a:active {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+
+<img src="img_girl.jpg" alt="Girl with a jacket">
+
+<p style="color:red;">This is a red paragraph.</p>
+
+<!--The value of the title attribute will be displayed as a tooltip when you mouse over the element-->
+<p title="I'm a tooltip">This is a paragraph.</p>
+
+<h2>Single or Double Quotes?</h2>
+<p>In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes:</p>
+<p>Move your mouse over the paragraphs below to see the effect:</p>
+
+<p title='John "ShotGun" Nelson'>John with double quotes</p>
+<p title="John 'ShotGun' Nelson">John with single quotes</p>
+
+<h1 style="font-size:60px;">Heading 1</h1>
+
+<p>This is<br>a paragraph<br>with line breaks.</p>
+
+<pre>
+    My Bonnie lies over the ocean.
+  
+    My Bonnie lies over the sea.
+  
+    My Bonnie lies over the ocean.
+  
+    Oh, bring back my Bonnie to me.
+</pre>
+
+<h1 style="background-color:powderblue;">This is a heading</h1>
+<p style="background-color:tomato;">This is a paragraph.</p>
+
+<h1 style="font-family:verdana;">This is a heading</h1>
+<p style="font-family:courier;">This is a paragraph.</p>
+
+<h1 style="font-size:300%;">This is a heading</h1>
+<p style="font-size:160%;">This is a paragraph.</p>
+
+<h1 style="text-align:center;">Centered Heading</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+
+<!--Formatting-->
+<b>This text is bold</b>
+<strong>This text is important!</strong>
+<i>This text is italic</i>
+<em>This text is emphasized</em>
+<small>This is some smaller text.</small>
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+<p>My favorite color is <del>blue</del> red.</p>
+<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+<p>This is <sub>subscripted</sub> text.</p>
+<p>This is <sup>superscripted</sup> text.</p>
+
+<!--Quotations-->
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+</blockquote>
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<address>
+    Written by John Doe.<br>
+    Visit us at:<br>
+    Example.com<br>
+    Box 564, Disneyland<br>
+    USA
+</address>
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+<bdo dir="rtl">This text will be written from right to left</bdo>
+
+<!--Links-->
+<!--_self - Default. Opens the document in the same window/tab as it was clicked
+    _blank - Opens the document in a new window or tab
+    _parent - Opens the document in the parent frame
+    _top - Opens the document in the full body of the window
+-->
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+<h2>Absolute URLs</h2>
+<p><a href="https://www.w3.org/">W3C</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+
+<h2>Relative URLs</h2>
+<p><a href="html_images.asp">HTML Images</a></p>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>
+<a href="default.asp">
+    <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a>
+<a href="mailto:someone@example.com">Send email</a>
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+<a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a>
+
+<h2 id="C4">Chapter 4</h2>
+<a href="#C4">Jump to Chapter 4</a>
+<a href="html_demo.html#C4">Jump to Chapter 4</a>
+
+<!--Images-->
+<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+
+<a href="default.asp">
+    <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a>
+
+<p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+    The image will float to the right of the text.</p>
+    
+<p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+    The image will float to the left of the text.</p>
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+    <!--rect - defines a rectangular region
+        circle - defines a circular region
+        poly - defines a polygonal region
+        default - defines the entire region-->
+<map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+    So, the coordinates 34,44 is located 34 pixels from the left margin and 44 pixels from the top:
+    The coordinates 270,350 is located 270 pixels from the left margin and 350 pixels from the top:
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+    <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+    44 value is for the scale of the cirle is 44px diameter
+</map>
+
+<p style="background-image: url('img_girl.jpg');background-repeat: no-repeat;"></p>
+
+<picture>
+    <source media="(min-width: 650px)" srcset="img_food.jpg">
+    <source media="(min-width: 465px)" srcset="img_car.jpg">
+    <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
+</picture>
+
+<!--Tables-->
+<table>
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Centro comercial Moctezuma</td>
+      <td>Francisco Chang</td>
+      <td>Mexico</td>
+    </tr>
+    <tr>
+      <td>Ernst Handel</td>
+      <td>Roland Mendel</td>
+      <td>Austria</td>
+    </tr>
+    <tr>
+      <td>Island Trading</td>
+      <td>Helen Bennett</td>
+      <td>UK</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">Laughing Bacchus Winecellars</td>
+      <td>Yoshi Tannamuri</td>
+      <td>Canada</td>
+    </tr>
+    <tr>
+      <td>Magazzini Alimentari Riuniti</td>
+      <td>Giovanni Rovelli</td>
+      <td>Italy</td>
+    </tr>
+</table>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPmou6evgeGnMsU4Kac3TEv60q65uqVigxib1NYMmoFw&s" alt="">
+</body>
+</html>

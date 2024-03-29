@@ -111,7 +111,7 @@ document.write("a + b - c = " + hitung);
 ```
 ## Contoh foto program yang saya buat
 - Program operasi aritmatika menggunakan js
-![Screenshot 2024-03-29 162902](https://github.com/Fahmifff/praktik-web1-week1/assets/164866034/228bd2f3-6fe7-43c0-bf03-abcd1e012d48)
+![Screenshot 2024-03-29 162815](https://github.com/Fahmifff/praktik-web1-week1/assets/164866034/a359be1e-313f-4c92-b6cd-f5171a6a501c)
 - Program styling table, background css
 ![Screenshot 2024-03-29 162839](https://github.com/Fahmifff/praktik-web1-week1/assets/164866034/1b3cc350-1f76-443c-9a18-fae501410afb)
 - Program mengubah paragraf menggunakan function javascript
